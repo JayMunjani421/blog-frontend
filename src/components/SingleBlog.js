@@ -141,7 +141,7 @@ const BlogDetails = () => {
 
   return (
     <>
-      <button style={styles.floatingBack} onClick={() => navigate('/')}>
+      <button style={styles.floatingBack} onClick={() => navigate('/blog')}>
         ← Go Back
       </button>
 
