@@ -396,7 +396,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getCommentsByBlogId, addComment } from '../actions/CommentAction';
 import { getLikeCount, addLike, removeLike } from '../actions/LikeAction';
 
-// 👉 Social share components
+// Social share components
 import {
   FacebookShareButton,
   WhatsappShareButton,
@@ -567,7 +567,7 @@ const BlogDetails = () => {
 
   return (
     <>
-      <button style={styles.floatingBack} onClick={() => navigate('/')}>
+      <button style={styles.floatingBack} onClick={() => navigate('/blog')}>
         ← Go Back
       </button>
 
