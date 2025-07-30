@@ -19,10 +19,10 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/login" element={<Login />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/blog/:id" element={<BlogDetails />}></Route>
         <Route element={<PrivateRoute />}>
           <Route path="/" element={<Dashboard />}></Route>
-          <Route path="/blog" element={<Blog />}></Route>
-          <Route path="/blog/:id" element={<BlogDetails />}></Route>
           <Route path="/insertform" element={<InsertForm/>}></Route>
           <Route path="/updateform/:id" element={<UpdateForm/>}></Route>
           <Route path="/viewdata/:id" element={<ViewData/>}></Route>
